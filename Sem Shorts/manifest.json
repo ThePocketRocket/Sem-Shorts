@@ -1,0 +1,27 @@
+{
+    "name": "Sem Shorts",
+    "description": "Chega de vídeos curtos que tomam o seu tempo e te colocam numa espiral de conteúdos sem relevância. Seja mais produtivo. Elimine distrações.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+      },
+      "default_title": "YouTube Longs"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["*://www.youtube.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["index.js"]
+      }
+    ]
+}
