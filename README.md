@@ -12,4 +12,4 @@ Cansei de vídeos curtos e da armadilha do YouTube Shorts. Essa extensão remove
 2. Vá em `chrome://extensions/`
 3. Ative o "Modo do desenvolvedor"
 4. Clique em "Carregar sem compactação"
-5. Selecione a pasta da extensão
+5. Selecione a pasta da extensão `Sem Shorts`
